@@ -62,11 +62,13 @@ import { v4 as uuidv4 } from 'uuid';
 
   render() {
     return (
-      <>
+      <div className='container'>
+      <div className='inner'>
       <Header />
       <InputTodo getTodo={this.addTodoItem}/>
       <TodosList todos={this.state.todos} handleChangeProps={this.handleChange} handleDelete={this.handleDelete} />
-      </>
+      </div>
+      </div>
     )
   }
 }
