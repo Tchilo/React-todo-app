@@ -37,11 +37,21 @@ import Header from './Header';
      }))
    };
 
+   handleDelete = id => {
+     this.setState({
+       todos: [
+         ...this.state.todos.filter(todo => {
+           return todo.id !== id;
+         })
+       ]
+     })
+   }
+
   render() {
     return (
       <>
       <Header />
-      <TodosList todos={this.state.todos} handleChangeProps={this.handleChange} />
+      <TodosList todos={this.state.todos} handleChangeProps={this.handleChange} handleDelete={this.handleDelete} />
       </>
     )
   }
