@@ -8,6 +8,7 @@ export default class TodosList extends Component {
         {this.props.todos.map(todo => (
           <TodoItem  key={todo.id}
            todo={todo}
+           setUpdate={this.props.setUpdate}
            handleChangeProps={this.props.handleChangeProps}
            handleDelete={this.props.handleDelete}
            />

@@ -60,13 +60,23 @@ import { v4 as uuidv4 } from 'uuid';
     });
    };
 
+   setUpdate = (updatedTitle, id) => {
+     this.setState({
+       todos: this.state.todos.map(todo => {
+         if (todo.id === id) {
+           todo.title = updatedTitle
+         }
+         return todo
+       }),
+     })
+   }
   render() {
     return (
       <div className='container'>
       <div className='inner'>
       <Header />
       <InputTodo getTodo={this.addTodoItem}/>
-      <TodosList todos={this.state.todos} handleChangeProps={this.handleChange} handleDelete={this.handleDelete} />
+      <TodosList todos={this.state.todos} handleChangeProps={this.handleChange} handleDelete={this.handleDelete} setUpdate={this.setUpdate} />
       </div>
       </div>
     )
