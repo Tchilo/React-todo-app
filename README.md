@@ -21,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://tchilo.github.io/)
+coming soon 
 
 
 ## Getting Started
