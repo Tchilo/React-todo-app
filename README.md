@@ -1,59 +1,84 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Todo App
 
-> One paragraph statement about the project.
+> Todo app is project built using React that lets you add,edit, and remove todo tasks .
 
-![screenshot](./app_screenshot.png)
+![screenshot](todos.png)
 
 Additional description about the project and its features.
 
-## Built With
+# Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+### Major languages
+- HTML
+- CSS
+- JS
+- JSX
+
+### Frameworks/Libraries
+- React
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+coming soon 
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+```
+git clone git@github.com:Tchilo/React-todo-app.git
+
+cd React-todo-app
+
+npm i 
+
+npm start 
+```
 
 ### Prerequisites
-
+```
+node modules 
+```
 ### Setup
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Install
 
-### Usage
-
 ### Run tests
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### Deployment
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+- GitHub: [Tchilo](https://github.com/Tchilo)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -70,7 +95,7 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
+ 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
